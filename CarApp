@@ -56,3 +56,8 @@ class Car
 		System.out.println("Fuel on the tank: " + amountOfFuel);
 		System.out.println("Refuel: " + refuel);
 		System.out.println("Fuel on the tank after the refuel: " + (refuel + amountOfFuel));
+	public void prinData() {
+		System.out.println("Brand: " + brand);
+		System.out.println("Model: " + model);
+		System.out.println("Amount of fuel: " + amountOfFuel);
+	}
